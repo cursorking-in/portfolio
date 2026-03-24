@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhinav Tiwari | AI Data Specialist</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<div><b>Abhinav</b></div>
+<div>
+<a href="#services">Services</a>
+<a href="#work">Work</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<h1>Better data leads to better AI</h1>
+
+<p>
+I work with AI teams on data quality, model evaluation, and real-world training data across voice, text, and behavior.
+</p>
+
+<p class="links">
+<a href="https://www.linkedin.com/in/abhinavtiwarirewa/" target="_blank">LinkedIn</a>
+<a href="mailto:contact@cursorking.co.in">Email</a>
+</p>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+<h2>What I do</h2>
+
+<div class="grid">
+<div class="card">AI QA & Evaluation</div>
+<div class="card">Speech QA</div>
+<div class="card">Voice Recording</div>
+<div class="card">Annotation</div>
+<div class="card">RLHF</div>
+</div>
+</section>
+
+<!-- WORK -->
+<section class="section" id="work">
+<h2>Selected Work</h2>
+
+<div class="grid">
+<div class="card" onclick="openModal(0)">Voice Dataset QA</div>
+<div class="card" onclick="openModal(1)">AI Evaluation</div>
+<div class="card" onclick="openModal(2)">Multimodal QA</div>
+<div class="card" onclick="openModal(3)">Robotics Data</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+<h2>Start a project</h2>
+
+<form action="https://formspree.io/f/REPLACE_THIS" method="POST">
+
+<div class="grid">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+</div>
+
+<select name="service">
+<option value="">Service</option>
+<option>AI QA</option>
+<option>Voice QA</option>
+<option>Voice Recording</option>
+</select>
+
+<textarea name="message" placeholder="What are you trying to improve?" required></textarea>
+
+<button class="btn">Send Message</button>
+
+</form>
+
+<p style="margin-top:15px; color:#94a3b8;">
+I usually respond within 24 hours.
+</p>
+
+</section>
+
+<footer>© 2026 Abhinav Tiwari</footer>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+<div class="modal-content">
+<span class="close" onclick="closeModal()">X</span>
+<div id="modal-body"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
